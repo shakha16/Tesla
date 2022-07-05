@@ -1,0 +1,162 @@
+.car{
+    margin: 0 auto;
+    margin-top: -180px;
+    cursor: pointer;
+}
+.boll{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -927px;
+    margin-top: 340px;
+    animation: roll 9000000s infinite ease;
+}
+.boll2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -448px;
+    margin-top: 340px;
+    transform: rotate(80deg);
+    animation: roll 9000000s infinite ease;
+}
+
+@keyframes roll{
+    100%{
+        transform: rotate(-15000000000deg);
+    }
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+.zapas{
+    font-size: 20px;
+    color: #707070;
+    margin-left: -70px;
+}
+.l{
+    margin-left: -150px;
+}
+.km{
+    font-size: 64px;
+    font-weight: 700;
+}
+.two{
+    margin-left: 117px;
+}
+.another{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.allsp{
+    font-size: 14px;
+    color: #707070;
+}
+.allspn{
+    font-size: 48px;
+    font-weight: 700;
+}
+.img{
+    width: 22px;
+    height: 22px;
+}
+.twoes{
+    margin-left: 34px;
+}
+.three{
+    margin-left: 54px;
+}
+
+input{
+    position: relative;
+    display: block;
+    appearance: none;
+    width: 50px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+input::after{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    left: 3px;
+    top: 3.5px;
+    transition: 300ms;
+}
+input:checked{
+    background-color: blue;
+}
+input:checked::after{
+    left: 29px;
+}
+.f{
+    margin-top: -20px;
+}
+
+
+.transi{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: -100px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.r{
+    margin-top: 20px;
+}
+.imgg{
+    display: flex;
+}
+.t{
+    width: 1240px;
+    height: 697px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ex{
+    display: flex;
+    margin-top: 20px;
+}
+.w{
+    background-color: rgb(220, 220, 220);
+}
+.o{
+    background-color: burlywood;
+}
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.color{
+    margin-right: 20px;
+}
+.p{
+    margin-left: -50px;
+}
+
+.center2{
+    display: none;
+}
